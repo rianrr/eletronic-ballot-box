@@ -4,20 +4,20 @@ let stages = [
     numbers: 5,
     candidates: [
       {
-        number: 38111,
+        number: '38111',
         name: 'Fulano de Tal',
         party: 'ABC',
         photos: [
-          { url: './img/alderman.png', label: 'Vereador', small: false }
+          { url: 'alderman.png', label: 'Vereador', small: false }
         ]
       },
 
       {
-        number: 77222,
+        number: '77222',
         name: 'Beltrano da Tal',
         party: 'DEFG',
         photos: [
-          { url: './img/mayor.png', label: 'Vereador' }
+          { url: 'mayor.png', label: 'Vereador' }
         ]
       },
     ]
@@ -28,24 +28,24 @@ let stages = [
     numbers: 2,
     candidates: [
       {
-        number: 99,
+        number: '99',
         name: 'Ciclano',
         party: 'ABC',
         vice: 'Cic',
         photos: [
-          { url: './img/mayor.png', label: 'Prefeito' },
-          { url: './img/vice-mayor.png', label: 'Vice-Prefeito', small: true },
+          { url: 'mayor.png', label: 'Prefeito' },
+          { url: 'vice-mayor.png', label: 'Vice-Prefeito', small: true },
         ]
       },
 
       {
-        number: 84,
+        number: '84',
         name: 'Zulano',
         party: 'QWERTY',
         vice: 'Zul',
         photos: [
-          { url: './img/vicemayor.png', label: 'Prefeito' },
-          { url: './img/mayor.png', label: 'Vice-Prefeito', small: true },
+          { url: 'vice-mayor.png', label: 'Prefeito' },
+          { url: 'mayor.png', label: 'Vice-Prefeito', small: true },
         ]
       },
     ]

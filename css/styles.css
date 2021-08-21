@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -112,6 +113,7 @@ body {
   text-align: center;
   line-height: 40px;
   font-size: 25px;
+  margin-right: 3px;
 }
 
 .blink {
@@ -155,8 +157,32 @@ body {
   line-height: 17px;
 }
 
+.big-notice {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gig-notice {
+  font-size: 70px;
+  font-weight: bold;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes blink {
-  0% { opacity: 0.2 }
-  50% { opacity: 1 }
-  100% { opacity: 0.2 }
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
 }
